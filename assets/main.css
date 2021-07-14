@@ -13,6 +13,11 @@ h1 {
   color: #46433A;
   /* default */ }
 
+ul {
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
 h2 {
   display: inline;
   margin: 5px;
