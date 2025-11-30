@@ -133,9 +133,13 @@ since it must be aligned with the content */
   text-align: center; }
 
 p {
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 5px; }
+   text-align: justify;
+   text-justify: inter-word;
+   padding: 5px; }
+
+strong, b {
+   font-weight: 900 !important;
+   font-style: italic !important; }
 
 /*** tagline ***/
 .tagline-container p {
@@ -145,12 +149,13 @@ p {
 
 /******/
 hr {
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, transparent, #990033, transparent);
-  background-image: -moz-linear-gradient(left, transparent, #990033, transparent);
-  background-image: -ms-linear-gradient(left, transparent, #990033, transparent);
-  background-image: -o-linear-gradient(left, transparent, #990033, transparent); }
+   border: 0;
+   height: 1px;
+   margin: 0;
+   background-image: -webkit-linear-gradient(left, transparent, #990033, transparent);
+   background-image: -moz-linear-gradient(left, transparent, #990033, transparent);
+   background-image: -ms-linear-gradient(left, transparent, #990033, transparent);
+   background-image: -o-linear-gradient(left, transparent, #990033, transparent); }
 
 /*** footer ***/
 footer {
