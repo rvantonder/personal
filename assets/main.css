@@ -179,6 +179,18 @@ footer {
     margin: 10% auto 10% auto;
   }
 }
+.blog-nav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Narrow screens: add top margin to blog post heading */
+@media (max-width: 767px) {
+  .content h2 {
+    margin-top: 1.5em;
+  }
+}
+
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
@@ -195,7 +207,8 @@ footer {
 
   .author-container h1,
   .logo-container,
-  .tagline-container p {
+  .tagline-container p,
+  .blog-nav {
     text-align: right; }
 
   .profile-container {
